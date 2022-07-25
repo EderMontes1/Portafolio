@@ -1,21 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
-<head>
+    <head>
         <title>Portafolio de Eder Montes</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head> 
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="icon" type="image/png" href="/pics/icon.png">
+        <link rel="stylesheet" href="/style.css"> <!--Este link enlaza al archivo de estilo CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        
+    </head> 
 
 <body>
-   
     
-    <H1>Hola Mundo</H1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    <header class="header"><!--Este es el encabezado-->
+        <div class="container_nav logo_nav_container">
+            
+             <img src="/pics/logo_transparent.png" alt="" width="190" height="100">
+            
+            <div class="logo_nombre">
+            Eder Montes
+            </div>
+            
+            <img class=icono_menu src="/pics/menu.png" alt="" width="45" height="45">
+            <!--<span class="icono_menu">Ver menú</span><!--Este es el boton de menu-->
         
-    </script>
+            <nav class="nav_menu">
+                <!--Este es el Menu-->
+                <ul class="mostrar_menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#aboutme">Acerca de mi</a></li>
+                    <li><a href="#proyectos">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </div>    
+    </header>
+        
+    <main class="main">
+
+        <div class="grid_bloque1">
+            <div class="container_holamundo">
+               <h2 class="hola_mundo">¡Hola Mundo!</h2>
+               <h1 class="nombre">Mi nombre es Eder Montes</h1>
+            </div>      
+
+            <div class="imagen_about">
+              <img src="/pics/foto_about (1).png" alt="" width="230" height="300">
+            </div>
+
+            <div class="container_descripcion">    
+                <p>Soy desarrollador de software en formación con enfoque en Front-End, ubicado en CDMX. </p>
+            </div>  
+    </div>
+        
+        <a name="aboutme"></a>
+        
+        <div class="container_aboutme_main">
+            <h2>Acerca de mi</h2>
+      
+                <div class="containerAboutMe">    
+                    <p>Soy estudiante de 8vo cuatrimestre de Ingeniería en Sistemas en la UVEG. 
+                    Tengo conocimientos básicos de programación Front-end, 
+                    asi como experiencia en soporte Técnico niveles 1 y 2; también cuento con la certificación
+                    Microsoft Azure Fundamentals AZ-900. Constantemente estoy en busca de nuevas cosas
+                    que aprender.</p>
+
+                    <br>
+
+                    <p>Paso mi tiempo libre con videojuegos, anime y realizando creación de contenido relacionado al gaming, coleccionismo y tecnología, ¡Suscribete! :D</p>
+
+                </div>  
+        </div>     
+                
+        <div class="skills">
+            <h3>Skills</h3>
+        </div>
+
+
+        <div class="main_skills_logos">
+            
+            <div>
+                <img src="/pics/js_logo.png" alt="" width="110" height="120">
+                <h5>JavaScript</h5>
+            </div>
+            <div>
+                <img src="/pics/html_logo.png" alt="" width="110" height="120">
+                <h5>HTML5</h5>
+            </div>    
+            <div>
+                <img src="/pics/css_logo.png" alt="" width="90" height="120">
+                <h5>CSS3</h5>
+            </div>
+            <div>
+                <img src="/pics/az900_logo.png" alt="" width="125" height="120">
+                <h5>AZ-900</h5>
+            </div>
+
+        </div>
+        <a name="proyectos"></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+            <h2>Portafolio</h2>
+
+            <div class="container_proyectos">    
+                <p>Aqui hay una pequeña recopilación de los proyectos que he realizado.</p>
+            </div> 
+            
+            <div class="container_proyectos_main">
+               
+        
+                <div class="proyecto_codificador">
+                    <div>
+                        <a href="http://codificadorem.atwebpages.com" target="_blank" rel=noopener noreferrer><img src="/pics/encriptador.JPG"  alt="codificador" width="250" height="170"></a>
+                        <h5>Codificador/Decodificador en JS</h5>
+                    </div>  
+                </div>
+
+                <div class="proyecto_catalogonst">
+                    <div>
+                        <a href="http://nekostore.onlinewebshop.net/" target="_blank" rel=noopener noreferrer><img src="/pics/catalogo_nst.JPG"  alt="codificador" width="250" height="170"></a>
+                        <h5>Catalogo en con Grid CSS Responsive</h5>
+                    </div>  
+                </div>
+            </div>
+        
+
+            
+            <h2 class="contacto">Contacto</h2>
+            
+            <div class="container_contacto">    
+                <p>Enviame un e-mail o contactame a traves de mis redes sociales</p>
+            
+                <div class="grid_bloque2">
+                    <div class="imagen_email">
+                        <img src="/pics/email_logo.png" alt="" width="50" height="50">
+                    </div>
+                     
+                    <div class="correo">
+                       <a href = "mailto: abc@example.com">Escribeme</a>
+                    </div>   
+
+                     <div class="imagen_linked">
+                        <img src="/pics/ld_logo.png" alt="" width="55" height="50">
+                    </div>
+
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/eder-alberto-montes-ab38421b3/"target="_blank" rel=noopener noreferrer>Linkedin</a>
+                    </div>  
+
+                    <div class="imagen_github">
+                        <img src="/pics/github_logo.png" alt="" width="50" height="50">
+                    </div>
+               
+                    <div class="github">
+                        <a href="https://github.com/EderMontes1"target="_blank" rel=noopener noreferrer>
+                        Mi repositorio de Github</a>
+                    </div>   
+
+                    <div class="imagen_cv">
+                        <img src="/pics/cv.png" alt="" width="60" height="60">
+                    </div>
+               
+                    <div class="cv">
+                        <a href="https://www.dropbox.com/s/0d4bodyppxrspjr/CV%20Eder%20Montes.pdf?dl=0"target="_blank" rel=noopener noreferrer>
+                        Descarga mi CV</a>
+                    </div>  
+
+
+                    <a name="contacto"></a>
+                </div> 
+
+          
+    </main>
+    <br>     
+    <br>     
+    <br>     
+    <br>     
+    <br>     
+    <br>     
+    <footer class="footer">
+        <div class="container">
+            Sitio desarrollado por Eder Montes (2022)
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/script.js"></script>
+
 </body>    
 
    
 </html>
+
